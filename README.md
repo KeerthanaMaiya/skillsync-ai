@@ -1,72 +1,92 @@
-\# 🚀 SkillSync AI - Intelligent Skills Gap Analyzer
+# 🚀 SkillSync AI - Intelligent Skills Gap Analyzer
 
-
-
-!\[SkillSync Demo](https://img.shields.io/badge/Status-Production\_Ready-green)
-
-!\[Node.js](https://img.shields.io/badge/Node.js-18%2B-green)
-
-!\[React](https://img.shields.io/badge/React-18-blue)
-
-!\[License](https://img.shields.io/badge/License-MIT-blue)
-
-
+![SkillSync Demo](https://img.shields.io/badge/Status-Production_Ready-green)
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-green)
+![React](https://img.shields.io/badge/React-18-blue)
+![License](https://img.shields.io/badge/License-MIT-blue)
 
 A cutting-edge full-stack application that uses AI-powered analysis to identify skill gaps between job seekers and their dream jobs. Transform your career path with personalized insights and learning recommendations.
 
+## 🎯 Live Demo
 
+**🌐 Live Application:** [Coming Soon - Deploy to Vercel/Netlify]
 
-\## ✨ Features
+**📚 API Documentation:** [View API Docs](#api-documentation)
 
+## ✨ Features
 
+- **🤖 AI-Powered Skills Extraction** - Automatically identifies technical skills from any job description
+- **📊 Visual Gap Analysis** - Beautiful dashboard showing your skill match percentage
+- **🎯 Personalized Learning Paths** - Curated resources for missing skills
+- **⚡ Real-time Processing** - Instant analysis with modern async architecture
+- **📱 Responsive Design** - Works perfectly on desktop and mobile devices
+- **🔧 RESTful API** - Clean, well-documented backend API
 
-\- \*\*🤖 AI-Powered Skills Extraction\*\* - Automatically identifies technical skills from any job description
+## 🛠 Tech Stack
 
-\- \*\*📊 Visual Gap Analysis\*\* - Beautiful dashboard showing your skill match percentage
+### Backend
+- **Node.js** - Runtime environment
+- **Express.js** - Web framework
+- **REST API** - Clean API architecture
+- **CORS** - Cross-origin resource sharing
+- **Natural** - NLP for text processing
 
-\- \*\*🎯 Personalized Learning Paths\*\* - Curated resources for missing skills
+### Frontend
+- **React** - Modern UI library
+- **Tailwind CSS** - Utility-first CSS framework
+- **Axios** - HTTP client
+- **Vite** - Fast build tool
+- **Font Awesome** - Professional icons
 
-\- \*\*⚡ Real-time Processing\*\* - Instant analysis with modern async architecture
+## 🚀 Quick Start
 
-\- \*\*📱 Responsive Design\*\* - Works perfectly on desktop and mobile devices
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+- Git
 
-\- \*\*🔧 RESTful API\*\* - Clean, well-documented backend API
+### 📥 Installation
 
+1. **Clone the repository**
+```bash
+git clone https://github.com/KeerthanaMaiya/skillsync-ai.git
+cd skillsync-ai
 
+*Setup Backend
 
-\## 🛠 Tech Stack
+bash
+cd backend
+npm install
 
+*Setup Frontend
 
+bash
+cd ../frontend
+npm install
 
-\### Backend
+🏃‍♂️ Running Locally
+Terminal 1 - Start Backend Server
+bash
+cd backend
+npm run dev
+✅ Backend running on: http://localhost:5000
 
-\- \*\*Node.js\*\* - Runtime environment
+Terminal 2 - Start Frontend Server
+bash
+cd frontend
+npx http-server . -p 3000
+✅ Frontend running on: http://localhost:3000/professional-demo.html
 
-\- \*\*Express.js\*\* - Web framework
+🧪 Testing the Application
+Open your browser to http://localhost:3000/professional-demo.html
 
-\- \*\*REST API\*\* - Clean API architecture
+*Paste a job description like:
 
-\- \*\*CORS\*\* - Cross-origin resource sharing
+text
+"We are looking for a React developer with Node.js experience. Knowledge of MongoDB and AWS is a plus. Must have strong JavaScript skills and experience with REST APIs."
 
-\- \*\*Natural\*\* - NLP for text processing
+*Click "Analyze Skills Requirements"
 
+*Select your skills from the grid
 
-
-\### Frontend
-
-\- \*\*React\*\* - Modern UI library
-
-\- \*\*Tailwind CSS\*\* - Utility-first CSS framework
-
-\- \*\*Axios\*\* - HTTP client
-
-\- \*\*Vite\*\* - Fast build tool
-
-\- \*\*Font Awesome\*\* - Professional icons
-
-
-
-\## 🏗 Project Structure
-
-
-
+*Click "Analyze Skill Gap" to see your match percentage
